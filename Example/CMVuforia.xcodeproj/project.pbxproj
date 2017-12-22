@@ -13,7 +13,7 @@
 		6003F598195388D20070C39A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6003F596195388D20070C39A /* InfoPlist.strings */; };
 		6003F59A195388D20070C39A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F599195388D20070C39A /* main.m */; };
 		6003F59E195388D20070C39A /* CMAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F59D195388D20070C39A /* CMAppDelegate.m */; };
-		6003F5A7195388D20070C39A /* CMViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5A6195388D20070C39A /* CMViewController.m */; };
+		6003F5A7195388D20070C39A /* CMViewController.mm in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5A6195388D20070C39A /* CMViewController.mm */; };
 		6003F5A9195388D20070C39A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6003F5A8195388D20070C39A /* Images.xcassets */; };
 		6003F5B0195388D20070C39A /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F5AF195388D20070C39A /* XCTest.framework */; };
 		6003F5B1195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
@@ -49,7 +49,7 @@
 		6003F59C195388D20070C39A /* CMAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CMAppDelegate.h; sourceTree = "<group>"; };
 		6003F59D195388D20070C39A /* CMAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CMAppDelegate.m; sourceTree = "<group>"; };
 		6003F5A5195388D20070C39A /* CMViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CMViewController.h; sourceTree = "<group>"; };
-		6003F5A6195388D20070C39A /* CMViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CMViewController.m; sourceTree = "<group>"; };
+		6003F5A6195388D20070C39A /* CMViewController.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = CMViewController.mm; sourceTree = "<group>"; };
 		6003F5A8195388D20070C39A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		6003F5AE195388D20070C39A /* CMVuforia_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CMVuforia_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F5AF195388D20070C39A /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
@@ -63,9 +63,9 @@
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		9AAFE5A491A49A891AD4A331 /* Pods-CMVuforia_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CMVuforia_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CMVuforia_Example/Pods-CMVuforia_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		A398164239DC7902BBE02726 /* Pods_CMVuforia_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CMVuforia_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		D5D5703F4646DB2ECBDADBB5 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
-		D82F7710DC35A20C7F137246 /* CMVuforia.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = CMVuforia.podspec; path = ../CMVuforia.podspec; sourceTree = "<group>"; };
-		F4F35FF5AC30013DC48DCF59 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		D5D5703F4646DB2ECBDADBB5 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		D82F7710DC35A20C7F137246 /* CMVuforia.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = CMVuforia.podspec; path = ../CMVuforia.podspec; sourceTree = "<group>"; };
+		F4F35FF5AC30013DC48DCF59 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		F9CD4D45F82CDC3D88F5EE13 /* Pods-CMVuforia_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CMVuforia_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-CMVuforia_Example/Pods-CMVuforia_Example.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -136,7 +136,7 @@
 				6003F59D195388D20070C39A /* CMAppDelegate.m */,
 				873B8AEA1B1F5CCA007FD442 /* Main.storyboard */,
 				6003F5A5195388D20070C39A /* CMViewController.h */,
-				6003F5A6195388D20070C39A /* CMViewController.m */,
+				6003F5A6195388D20070C39A /* CMViewController.mm */,
 				71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */,
 				6003F5A8195388D20070C39A /* Images.xcassets */,
 				6003F594195388D20070C39A /* Supporting Files */,
@@ -250,6 +250,9 @@
 				LastUpgradeCheck = 0720;
 				ORGANIZATIONNAME = Moyun;
 				TargetAttributes = {
+					6003F589195388D20070C39A = {
+						DevelopmentTeam = 4262G7AU8L;
+					};
 					6003F5AD195388D20070C39A = {
 						TestTargetID = 6003F589195388D20070C39A;
 					};
@@ -404,7 +407,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				6003F59E195388D20070C39A /* CMAppDelegate.m in Sources */,
-				6003F5A7195388D20070C39A /* CMViewController.m in Sources */,
+				6003F5A7195388D20070C39A /* CMViewController.mm in Sources */,
 				6003F59A195388D20070C39A /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -533,6 +536,8 @@
 			baseConfigurationReference = 9AAFE5A491A49A891AD4A331 /* Pods-CMVuforia_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 4262G7AU8L;
+				ENABLE_BITCODE = NO;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "CMVuforia/CMVuforia-Prefix.pch";
 				INFOPLIST_FILE = "CMVuforia/CMVuforia-Info.plist";
@@ -548,6 +553,8 @@
 			baseConfigurationReference = F9CD4D45F82CDC3D88F5EE13 /* Pods-CMVuforia_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 4262G7AU8L;
+				ENABLE_BITCODE = NO;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "CMVuforia/CMVuforia-Prefix.pch";
 				INFOPLIST_FILE = "CMVuforia/CMVuforia-Info.plist";

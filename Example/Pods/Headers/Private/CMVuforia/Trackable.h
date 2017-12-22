@@ -1,0 +1,1 @@
+../../../../../CMVuforia/Vuforia/Trackable.h

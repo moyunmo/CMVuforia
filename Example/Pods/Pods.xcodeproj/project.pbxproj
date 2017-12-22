@@ -1,0 +1,723 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		10A6D615D9D47218A4E09A22818D15A2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		161545394E5DF7F65BD6F58B4E80139D /* Pods-CMVuforia_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 006FF3BE67420613FF22959FE3378A7F /* Pods-CMVuforia_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		28688D02115F3BF2E4FD566675935028 /* Pods-CMVuforia_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D557D06ADDECF9FCBF30C02DB3BC8BF8 /* Pods-CMVuforia_Example-dummy.m */; };
+		44965D8CE4D516DCFE32CC03E8CF275C /* Pods-CMVuforia_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F27000CB1E48888219FA0816B4EF8D5 /* Pods-CMVuforia_Tests-dummy.m */; };
+		6B7DF091B14F30B8BB496FBBB35C6BC9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		E7C5F873194D70F82A0CBF84572F914D /* Pods-CMVuforia_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9A933C72B8B6D6CC09B3285AF6E1AAB1 /* Pods-CMVuforia_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		006FF3BE67420613FF22959FE3378A7F /* Pods-CMVuforia_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-CMVuforia_Tests-umbrella.h"; sourceTree = "<group>"; };
+		030338370DA23D7D07336087F363B1A2 /* Vuforia_iOS.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Vuforia_iOS.h; path = CMVuforia/Vuforia/Vuforia_iOS.h; sourceTree = "<group>"; };
+		051B778D42BF787C6843FDC72BC01018 /* NonCopyable.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NonCopyable.h; path = CMVuforia/Vuforia/NonCopyable.h; sourceTree = "<group>"; };
+		0738C5EF509187E8BC423E740DE27CD3 /* Pods-CMVuforia_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-CMVuforia_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		0BC8B750471510396BDF4FB38BDC4FB1 /* PositionalDeviceTracker.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PositionalDeviceTracker.h; path = CMVuforia/Vuforia/PositionalDeviceTracker.h; sourceTree = "<group>"; };
+		133423720D2305779FC5A153AD477F7D /* DeviceTrackable.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DeviceTrackable.h; path = CMVuforia/Vuforia/DeviceTrackable.h; sourceTree = "<group>"; };
+		136A5C2AA89D02840D808B50CB6A5F4E /* VirtualButtonResult.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = VirtualButtonResult.h; path = CMVuforia/Vuforia/VirtualButtonResult.h; sourceTree = "<group>"; };
+		162FCF8356CB844D61B70773AA7C28DC /* Pods-CMVuforia_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-CMVuforia_Tests.modulemap"; sourceTree = "<group>"; };
+		18391961BBEC966A4492755C9FC3DA77 /* Image.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Image.h; path = CMVuforia/Vuforia/Image.h; sourceTree = "<group>"; };
+		18412F8065198AF806ABEF4E44821086 /* TransformModel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TransformModel.h; path = CMVuforia/Vuforia/TransformModel.h; sourceTree = "<group>"; };
+		1A8068F02F73D035456C4D2ED30F429F /* Obb2D.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Obb2D.h; path = CMVuforia/Vuforia/Obb2D.h; sourceTree = "<group>"; };
+		1CF687380B3555056EA5D004013C1868 /* MetalRenderer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MetalRenderer.h; path = CMVuforia/Vuforia/MetalRenderer.h; sourceTree = "<group>"; };
+		1DBA9F0CAD7FF63EDF4CA786FA817FDB /* VuMarkTarget.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = VuMarkTarget.h; path = CMVuforia/Vuforia/VuMarkTarget.h; sourceTree = "<group>"; };
+		1F55585F30D2863C543EA7E3BD29604D /* Pods-CMVuforia_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-CMVuforia_Tests-resources.sh"; sourceTree = "<group>"; };
+		1FC7D57951E68DF33266EFEEFA63BF08 /* SmartTerrain.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SmartTerrain.h; path = CMVuforia/Vuforia/SmartTerrain.h; sourceTree = "<group>"; };
+		2067A28A8A085A56026C2017A7039D72 /* Pods-CMVuforia_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CMVuforia_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		21EF6AB8A917424D1F9FE266C8753697 /* ImageTargetBuilder.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ImageTargetBuilder.h; path = CMVuforia/Vuforia/ImageTargetBuilder.h; sourceTree = "<group>"; };
+		290152FA58F2B2A1A91CF7B9F5D16A41 /* Device.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Device.h; path = CMVuforia/Vuforia/Device.h; sourceTree = "<group>"; };
+		2FB1FF90A55A346E3FFC2E2F276CD062 /* ImageTarget.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ImageTarget.h; path = CMVuforia/Vuforia/ImageTarget.h; sourceTree = "<group>"; };
+		318A766E2AB86C3CFBC0DC5136F0EAC3 /* Word.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Word.h; path = CMVuforia/Vuforia/Word.h; sourceTree = "<group>"; };
+		36C0862E22A912A369DC548E3942C2F5 /* Area.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Area.h; path = CMVuforia/Vuforia/Area.h; sourceTree = "<group>"; };
+		39A63F282F094BFA1712B139BB85261E /* Type.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Type.h; path = CMVuforia/Vuforia/Type.h; sourceTree = "<group>"; };
+		3E2A6C7B3367048B8D3D60A77C7019C8 /* ViewList.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ViewList.h; path = CMVuforia/Vuforia/ViewList.h; sourceTree = "<group>"; };
+		3F27000CB1E48888219FA0816B4EF8D5 /* Pods-CMVuforia_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-CMVuforia_Tests-dummy.m"; sourceTree = "<group>"; };
+		3F490978D86023296F908CE86654F805 /* CameraCalibration.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CameraCalibration.h; path = CMVuforia/Vuforia/CameraCalibration.h; sourceTree = "<group>"; };
+		3F60F05335BDBBE70A41733CAB0EB254 /* ViewerParametersList.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ViewerParametersList.h; path = CMVuforia/Vuforia/ViewerParametersList.h; sourceTree = "<group>"; };
+		4063730B3D87D0B6D501AA7CDAF724AA /* Box3D.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Box3D.h; path = CMVuforia/Vuforia/Box3D.h; sourceTree = "<group>"; };
+		4945B47AF90A3F02210F8A88FB62AA66 /* CylinderTarget.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CylinderTarget.h; path = CMVuforia/Vuforia/CylinderTarget.h; sourceTree = "<group>"; };
+		4AA1BD2D314E908EF774AC460E2183C3 /* HitTestResult.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HitTestResult.h; path = CMVuforia/Vuforia/HitTestResult.h; sourceTree = "<group>"; };
+		4D83FEF8A4D765102AC03007EE71DF7D /* CustomViewerParameters.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CustomViewerParameters.h; path = CMVuforia/Vuforia/CustomViewerParameters.h; sourceTree = "<group>"; };
+		4F83C9DC8FFA6F42BDDDD311223B9362 /* AnchorResult.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AnchorResult.h; path = CMVuforia/Vuforia/AnchorResult.h; sourceTree = "<group>"; };
+		52313A0E619F398E12D30D70F7B71FFE /* VuMarkTemplate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = VuMarkTemplate.h; path = CMVuforia/Vuforia/VuMarkTemplate.h; sourceTree = "<group>"; };
+		565C6C2C633AA77729EACBDD54AA3E6A /* HandheldTransformModel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HandheldTransformModel.h; path = CMVuforia/Vuforia/HandheldTransformModel.h; sourceTree = "<group>"; };
+		5B4398C795C04096FB849CA8FE00998A /* CameraDevice.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CameraDevice.h; path = CMVuforia/Vuforia/CameraDevice.h; sourceTree = "<group>"; };
+		5C07A1D3D7A02644ACCB59C5216A948D /* Obb3D.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Obb3D.h; path = CMVuforia/Vuforia/Obb3D.h; sourceTree = "<group>"; };
+		615715E42B78FBDF0A217ED73B52465B /* State.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = State.h; path = CMVuforia/Vuforia/State.h; sourceTree = "<group>"; };
+		62054AAD2A36A7D9370E6A604D97B554 /* ObjectTarget.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ObjectTarget.h; path = CMVuforia/Vuforia/ObjectTarget.h; sourceTree = "<group>"; };
+		6421302A9794698BF0386C521B5B8B18 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		64E0513932F80F44D7B14537D695C7C1 /* DataSet.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DataSet.h; path = CMVuforia/Vuforia/DataSet.h; sourceTree = "<group>"; };
+		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		6C05ADDD7059D7C0EE4529A72AAE3804 /* MultiTarget.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MultiTarget.h; path = CMVuforia/Vuforia/MultiTarget.h; sourceTree = "<group>"; };
+		786FE09D6585BD97D3AEBE43D7A41BE8 /* System.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = System.h; path = CMVuforia/Vuforia/System.h; sourceTree = "<group>"; };
+		7C8901F28F8F64F98CE4F1782784A21F /* CylinderTargetResult.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CylinderTargetResult.h; path = CMVuforia/Vuforia/CylinderTargetResult.h; sourceTree = "<group>"; };
+		7EE5454E6E4581AF380074306744DB92 /* ImageTargetResult.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ImageTargetResult.h; path = CMVuforia/Vuforia/ImageTargetResult.h; sourceTree = "<group>"; };
+		805C175549E3078CF387C9059F6F5132 /* Pods-CMVuforia_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-CMVuforia_Example.modulemap"; sourceTree = "<group>"; };
+		85983597FE1A9AC8DA1E9A0766B20632 /* Pods-CMVuforia_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CMVuforia_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		859FFB21EEE7D0F5B138B755D44AEBE7 /* Vuforia.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Vuforia.h; path = CMVuforia/Vuforia/Vuforia.h; sourceTree = "<group>"; };
+		864E665279332D2510C12CBC94E172BE /* EyewearCalibrationReading.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = EyewearCalibrationReading.h; path = CMVuforia/Vuforia/EyewearCalibrationReading.h; sourceTree = "<group>"; };
+		89E0C884D8F6CA22EF37AE501DA0A752 /* libVuforia.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libVuforia.a; path = CMVuforia/Binary/libVuforia.a; sourceTree = "<group>"; };
+		8FFCE560DB9E25C640B39B6CE10C6FA3 /* View.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = View.h; path = CMVuforia/Vuforia/View.h; sourceTree = "<group>"; };
+		901DC55B29662373B4556F08944A4187 /* CameraField.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CameraField.h; path = CMVuforia/Vuforia/CameraField.h; sourceTree = "<group>"; };
+		929A497C41C47974508B10FAF8F34859 /* ObjectTargetResult.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ObjectTargetResult.h; path = CMVuforia/Vuforia/ObjectTargetResult.h; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		93B0F54C34F55AAD0C6DFF363BE0D67C /* MultiTargetResult.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MultiTargetResult.h; path = CMVuforia/Vuforia/MultiTargetResult.h; sourceTree = "<group>"; };
+		93C3A23C3BE34F5C7778F79FA14BE1BB /* Pods-CMVuforia_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CMVuforia_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		948048265383212851364DDF29D0A5A8 /* TrackableSource.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TrackableSource.h; path = CMVuforia/Vuforia/TrackableSource.h; sourceTree = "<group>"; };
+		950779CD7A9D6223FE721E59BB6A8240 /* Vectors.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Vectors.h; path = CMVuforia/Vuforia/Vectors.h; sourceTree = "<group>"; };
+		950F8E87911B070B5A151CBFE4522F9B /* UIGLViewProtocol.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = UIGLViewProtocol.h; path = CMVuforia/Vuforia/UIGLViewProtocol.h; sourceTree = "<group>"; };
+		9598E513001C5F2FA28F5E4EEC0DD2F3 /* GuideView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GuideView.h; path = CMVuforia/Vuforia/GuideView.h; sourceTree = "<group>"; };
+		99DA39847EBFE40A3B272FF6D0B65068 /* Frame.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Frame.h; path = CMVuforia/Vuforia/Frame.h; sourceTree = "<group>"; };
+		9A933C72B8B6D6CC09B3285AF6E1AAB1 /* Pods-CMVuforia_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-CMVuforia_Example-umbrella.h"; sourceTree = "<group>"; };
+		9C30718F6F53AD92FE099580B3CC6D5C /* ObjectTracker.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ObjectTracker.h; path = CMVuforia/Vuforia/ObjectTracker.h; sourceTree = "<group>"; };
+		9DA6CB51A6AB756B49B31CF4492C58BB /* Pods-CMVuforia_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CMVuforia_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		9E4523E9D10E242110D2BFF7016C122B /* DeviceTracker.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DeviceTracker.h; path = CMVuforia/Vuforia/DeviceTracker.h; sourceTree = "<group>"; };
+		A395839E9F97541C488280B548F0755C /* Pods-CMVuforia_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-CMVuforia_Example-resources.sh"; sourceTree = "<group>"; };
+		A5FB0573E87B842EC895F514B4BA3365 /* VideoBackgroundTextureInfo.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = VideoBackgroundTextureInfo.h; path = CMVuforia/Vuforia/VideoBackgroundTextureInfo.h; sourceTree = "<group>"; };
+		AF52CBE7F97D3567F57451341D31BA4B /* Pods-CMVuforia_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-CMVuforia_Example-frameworks.sh"; sourceTree = "<group>"; };
+		B021016EDE17C4740E48BAF48935E846 /* DeviceTrackableResult.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DeviceTrackableResult.h; path = CMVuforia/Vuforia/DeviceTrackableResult.h; sourceTree = "<group>"; };
+		B05358903A81A16C16A149DEAD1881F9 /* Pods-CMVuforia_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CMVuforia_Example.release.xcconfig"; sourceTree = "<group>"; };
+		B684BCB88955C3DF9D46FB68BCAAF3FE /* ViewerParameters.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ViewerParameters.h; path = CMVuforia/Vuforia/ViewerParameters.h; sourceTree = "<group>"; };
+		B6925CFDA6E00968BE56D7567883DD53 /* VirtualButton.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = VirtualButton.h; path = CMVuforia/Vuforia/VirtualButton.h; sourceTree = "<group>"; };
+		B83D73659D543448EE0E1CC813FEC8A4 /* TargetFinder.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TargetFinder.h; path = CMVuforia/Vuforia/TargetFinder.h; sourceTree = "<group>"; };
+		B939832D89516BF8FC3D9349E94B725D /* EyewearUserCalibrator.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = EyewearUserCalibrator.h; path = CMVuforia/Vuforia/EyewearUserCalibrator.h; sourceTree = "<group>"; };
+		B9ED37B7EDE5C86C823324F84A8CBB2B /* Pods_CMVuforia_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_CMVuforia_Example.framework; path = "Pods-CMVuforia_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BBF585E7EB6DCC9A688BE6D3F3186438 /* HeadTransformModel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HeadTransformModel.h; path = CMVuforia/Vuforia/HeadTransformModel.h; sourceTree = "<group>"; };
+		BDC42FF4D58CD5E2C418D0CE603BF5DD /* TargetSearchResult.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TargetSearchResult.h; path = CMVuforia/Vuforia/TargetSearchResult.h; sourceTree = "<group>"; };
+		BF37FA0D84EAAC019EF95EDE81CF9338 /* Pods-CMVuforia_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CMVuforia_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		C06050907FC6F8A6B9D0B4C489B94312 /* Tracker.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Tracker.h; path = CMVuforia/Vuforia/Tracker.h; sourceTree = "<group>"; };
+		C1FB4D304E5F9F901EB8CADB1B88F250 /* WordResult.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WordResult.h; path = CMVuforia/Vuforia/WordResult.h; sourceTree = "<group>"; };
+		C240B6AD1279D2E8643ED4DA2DA05612 /* Pods-CMVuforia_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-CMVuforia_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		C2D99007BB4204AE388481CF67C5D3FE /* InstanceId.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = InstanceId.h; path = CMVuforia/Vuforia/InstanceId.h; sourceTree = "<group>"; };
+		C3BE576868EBCF05500EA5ECACDC993B /* VuMarkTargetResult.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = VuMarkTargetResult.h; path = CMVuforia/Vuforia/VuMarkTargetResult.h; sourceTree = "<group>"; };
+		C6E58E362FFF97B1448254966AE9507C /* TrackableResult.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TrackableResult.h; path = CMVuforia/Vuforia/TrackableResult.h; sourceTree = "<group>"; };
+		C7244B7838C6D6FF66348F95665ED7A0 /* RotationalDeviceTracker.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RotationalDeviceTracker.h; path = CMVuforia/Vuforia/RotationalDeviceTracker.h; sourceTree = "<group>"; };
+		CB4C1066DB3E3E1888BCC2B2391722D4 /* Pods_CMVuforia_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_CMVuforia_Tests.framework; path = "Pods-CMVuforia_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CC9C3CB3DC2EA348EC653A7FE58BB1BE /* Anchor.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Anchor.h; path = CMVuforia/Vuforia/Anchor.h; sourceTree = "<group>"; };
+		CE6A60EB7C7ADA682881B669CC529B58 /* TrackerManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TrackerManager.h; path = CMVuforia/Vuforia/TrackerManager.h; sourceTree = "<group>"; };
+		D149A157BBF770A9F99F012C7F155C2F /* EyeID.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = EyeID.h; path = CMVuforia/Vuforia/EyeID.h; sourceTree = "<group>"; };
+		D4068A226E8F58463CEA293E1299361A /* EyewearCalibrationProfileManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = EyewearCalibrationProfileManager.h; path = CMVuforia/Vuforia/EyewearCalibrationProfileManager.h; sourceTree = "<group>"; };
+		D557D06ADDECF9FCBF30C02DB3BC8BF8 /* Pods-CMVuforia_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-CMVuforia_Example-dummy.m"; sourceTree = "<group>"; };
+		D86353FC1DA225F2A54D1D8B1AACC4C0 /* WordList.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WordList.h; path = CMVuforia/Vuforia/WordList.h; sourceTree = "<group>"; };
+		DA7C44C9E278F591F1CE4E69AA28BBD3 /* Mesh.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Mesh.h; path = CMVuforia/Vuforia/Mesh.h; sourceTree = "<group>"; };
+		E07AEF2D6F6FA5A80B8C0A5FE51A927C /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E0B2166A0C7ABE532B4C1F483D2E277E /* Renderer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Renderer.h; path = CMVuforia/Vuforia/Renderer.h; sourceTree = "<group>"; };
+		E6B2D561106E136A2C3350336B913969 /* EyewearDevice.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = EyewearDevice.h; path = CMVuforia/Vuforia/EyewearDevice.h; sourceTree = "<group>"; };
+		E7B82D83D9786D2D24DBEA02C9901693 /* ModelTarget.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ModelTarget.h; path = CMVuforia/Vuforia/ModelTarget.h; sourceTree = "<group>"; };
+		E99238CDBB4988F2C0DC380A9D2561F1 /* Pods-CMVuforia_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-CMVuforia_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		EB42A87CF21547F6AB8015C7C297047C /* UpdateCallback.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = UpdateCallback.h; path = CMVuforia/Vuforia/UpdateCallback.h; sourceTree = "<group>"; };
+		ECFF93A23C29F6D0838C54857BC55BC3 /* Trackable.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Trackable.h; path = CMVuforia/Vuforia/Trackable.h; sourceTree = "<group>"; };
+		EDFF3945D1C5BEE90D7B8D8552D8BD83 /* GLRenderer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GLRenderer.h; path = CMVuforia/Vuforia/GLRenderer.h; sourceTree = "<group>"; };
+		EE539F29FED67BE578D46A86A85EC761 /* ModelTargetResult.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ModelTargetResult.h; path = CMVuforia/Vuforia/ModelTargetResult.h; sourceTree = "<group>"; };
+		EEA7609CA46F1F9C01B47107CD5B1A59 /* Tool.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Tool.h; path = CMVuforia/Vuforia/Tool.h; sourceTree = "<group>"; };
+		EEDDDE161B80BFFE0AE53039B425154B /* StateUpdater.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = StateUpdater.h; path = CMVuforia/Vuforia/StateUpdater.h; sourceTree = "<group>"; };
+		F0FA9E21107A3A31E1D5831E01002469 /* VideoMode.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = VideoMode.h; path = CMVuforia/Vuforia/VideoMode.h; sourceTree = "<group>"; };
+		F1D6AD69F667E6CDF9BCB7DB5DCE714E /* RenderingPrimitives.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RenderingPrimitives.h; path = CMVuforia/Vuforia/RenderingPrimitives.h; sourceTree = "<group>"; };
+		F549FA545A094D0AEE422B8B6C157253 /* VideoBackgroundConfig.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = VideoBackgroundConfig.h; path = CMVuforia/Vuforia/VideoBackgroundConfig.h; sourceTree = "<group>"; };
+		F675705600A220F367169AE3942DAFD1 /* TextTracker.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TextTracker.h; path = CMVuforia/Vuforia/TextTracker.h; sourceTree = "<group>"; };
+		FBCAE158F0E2F147438D52D4E64979D4 /* Rectangle.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Rectangle.h; path = CMVuforia/Vuforia/Rectangle.h; sourceTree = "<group>"; };
+		FC6A6EF1406D84987051D502649114A3 /* Illumination.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Illumination.h; path = CMVuforia/Vuforia/Illumination.h; sourceTree = "<group>"; };
+		FC9047F532FAEB6032F05E2FEF4E353D /* Matrices.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Matrices.h; path = CMVuforia/Vuforia/Matrices.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0572E0011AD476A00F1A9A9AF6BB06C2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				10A6D615D9D47218A4E09A22818D15A2 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		630573ACE74A4D4446BCAB9F172DB7ED /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6B7DF091B14F30B8BB496FBBB35C6BC9 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		14276DA234C0EA947173B172FD9314D8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B9ED37B7EDE5C86C823324F84A8CBB2B /* Pods_CMVuforia_Example.framework */,
+				CB4C1066DB3E3E1888BCC2B2391722D4 /* Pods_CMVuforia_Tests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		257F24D214EC7B85C37199418FD880C7 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				4CDA85F16D8187A28B9F2A87DC72EAC6 /* Pods-CMVuforia_Example */,
+				A4E1F23E24CD80CDDDB7777E4B90DAE1 /* Pods-CMVuforia_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		4CDA85F16D8187A28B9F2A87DC72EAC6 /* Pods-CMVuforia_Example */ = {
+			isa = PBXGroup;
+			children = (
+				6421302A9794698BF0386C521B5B8B18 /* Info.plist */,
+				805C175549E3078CF387C9059F6F5132 /* Pods-CMVuforia_Example.modulemap */,
+				C240B6AD1279D2E8643ED4DA2DA05612 /* Pods-CMVuforia_Example-acknowledgements.markdown */,
+				2067A28A8A085A56026C2017A7039D72 /* Pods-CMVuforia_Example-acknowledgements.plist */,
+				D557D06ADDECF9FCBF30C02DB3BC8BF8 /* Pods-CMVuforia_Example-dummy.m */,
+				AF52CBE7F97D3567F57451341D31BA4B /* Pods-CMVuforia_Example-frameworks.sh */,
+				A395839E9F97541C488280B548F0755C /* Pods-CMVuforia_Example-resources.sh */,
+				9A933C72B8B6D6CC09B3285AF6E1AAB1 /* Pods-CMVuforia_Example-umbrella.h */,
+				85983597FE1A9AC8DA1E9A0766B20632 /* Pods-CMVuforia_Example.debug.xcconfig */,
+				B05358903A81A16C16A149DEAD1881F9 /* Pods-CMVuforia_Example.release.xcconfig */,
+			);
+			name = "Pods-CMVuforia_Example";
+			path = "Target Support Files/Pods-CMVuforia_Example";
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				821A11113ED4FC2EBA3FCF3D95625B6B /* Development Pods */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				14276DA234C0EA947173B172FD9314D8 /* Products */,
+				257F24D214EC7B85C37199418FD880C7 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		821A11113ED4FC2EBA3FCF3D95625B6B /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8838FD5D82C60C046A6497645D00EAA7 /* CMVuforia */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		8838FD5D82C60C046A6497645D00EAA7 /* CMVuforia */ = {
+			isa = PBXGroup;
+			children = (
+				CC9C3CB3DC2EA348EC653A7FE58BB1BE /* Anchor.h */,
+				4F83C9DC8FFA6F42BDDDD311223B9362 /* AnchorResult.h */,
+				36C0862E22A912A369DC548E3942C2F5 /* Area.h */,
+				4063730B3D87D0B6D501AA7CDAF724AA /* Box3D.h */,
+				3F490978D86023296F908CE86654F805 /* CameraCalibration.h */,
+				5B4398C795C04096FB849CA8FE00998A /* CameraDevice.h */,
+				901DC55B29662373B4556F08944A4187 /* CameraField.h */,
+				4D83FEF8A4D765102AC03007EE71DF7D /* CustomViewerParameters.h */,
+				4945B47AF90A3F02210F8A88FB62AA66 /* CylinderTarget.h */,
+				7C8901F28F8F64F98CE4F1782784A21F /* CylinderTargetResult.h */,
+				64E0513932F80F44D7B14537D695C7C1 /* DataSet.h */,
+				290152FA58F2B2A1A91CF7B9F5D16A41 /* Device.h */,
+				133423720D2305779FC5A153AD477F7D /* DeviceTrackable.h */,
+				B021016EDE17C4740E48BAF48935E846 /* DeviceTrackableResult.h */,
+				9E4523E9D10E242110D2BFF7016C122B /* DeviceTracker.h */,
+				D149A157BBF770A9F99F012C7F155C2F /* EyeID.h */,
+				D4068A226E8F58463CEA293E1299361A /* EyewearCalibrationProfileManager.h */,
+				864E665279332D2510C12CBC94E172BE /* EyewearCalibrationReading.h */,
+				E6B2D561106E136A2C3350336B913969 /* EyewearDevice.h */,
+				B939832D89516BF8FC3D9349E94B725D /* EyewearUserCalibrator.h */,
+				99DA39847EBFE40A3B272FF6D0B65068 /* Frame.h */,
+				EDFF3945D1C5BEE90D7B8D8552D8BD83 /* GLRenderer.h */,
+				9598E513001C5F2FA28F5E4EEC0DD2F3 /* GuideView.h */,
+				565C6C2C633AA77729EACBDD54AA3E6A /* HandheldTransformModel.h */,
+				BBF585E7EB6DCC9A688BE6D3F3186438 /* HeadTransformModel.h */,
+				4AA1BD2D314E908EF774AC460E2183C3 /* HitTestResult.h */,
+				FC6A6EF1406D84987051D502649114A3 /* Illumination.h */,
+				18391961BBEC966A4492755C9FC3DA77 /* Image.h */,
+				2FB1FF90A55A346E3FFC2E2F276CD062 /* ImageTarget.h */,
+				21EF6AB8A917424D1F9FE266C8753697 /* ImageTargetBuilder.h */,
+				7EE5454E6E4581AF380074306744DB92 /* ImageTargetResult.h */,
+				C2D99007BB4204AE388481CF67C5D3FE /* InstanceId.h */,
+				FC9047F532FAEB6032F05E2FEF4E353D /* Matrices.h */,
+				DA7C44C9E278F591F1CE4E69AA28BBD3 /* Mesh.h */,
+				1CF687380B3555056EA5D004013C1868 /* MetalRenderer.h */,
+				E7B82D83D9786D2D24DBEA02C9901693 /* ModelTarget.h */,
+				EE539F29FED67BE578D46A86A85EC761 /* ModelTargetResult.h */,
+				6C05ADDD7059D7C0EE4529A72AAE3804 /* MultiTarget.h */,
+				93B0F54C34F55AAD0C6DFF363BE0D67C /* MultiTargetResult.h */,
+				051B778D42BF787C6843FDC72BC01018 /* NonCopyable.h */,
+				1A8068F02F73D035456C4D2ED30F429F /* Obb2D.h */,
+				5C07A1D3D7A02644ACCB59C5216A948D /* Obb3D.h */,
+				62054AAD2A36A7D9370E6A604D97B554 /* ObjectTarget.h */,
+				929A497C41C47974508B10FAF8F34859 /* ObjectTargetResult.h */,
+				9C30718F6F53AD92FE099580B3CC6D5C /* ObjectTracker.h */,
+				0BC8B750471510396BDF4FB38BDC4FB1 /* PositionalDeviceTracker.h */,
+				FBCAE158F0E2F147438D52D4E64979D4 /* Rectangle.h */,
+				E0B2166A0C7ABE532B4C1F483D2E277E /* Renderer.h */,
+				F1D6AD69F667E6CDF9BCB7DB5DCE714E /* RenderingPrimitives.h */,
+				C7244B7838C6D6FF66348F95665ED7A0 /* RotationalDeviceTracker.h */,
+				1FC7D57951E68DF33266EFEEFA63BF08 /* SmartTerrain.h */,
+				615715E42B78FBDF0A217ED73B52465B /* State.h */,
+				EEDDDE161B80BFFE0AE53039B425154B /* StateUpdater.h */,
+				786FE09D6585BD97D3AEBE43D7A41BE8 /* System.h */,
+				B83D73659D543448EE0E1CC813FEC8A4 /* TargetFinder.h */,
+				BDC42FF4D58CD5E2C418D0CE603BF5DD /* TargetSearchResult.h */,
+				F675705600A220F367169AE3942DAFD1 /* TextTracker.h */,
+				EEA7609CA46F1F9C01B47107CD5B1A59 /* Tool.h */,
+				ECFF93A23C29F6D0838C54857BC55BC3 /* Trackable.h */,
+				C6E58E362FFF97B1448254966AE9507C /* TrackableResult.h */,
+				948048265383212851364DDF29D0A5A8 /* TrackableSource.h */,
+				C06050907FC6F8A6B9D0B4C489B94312 /* Tracker.h */,
+				CE6A60EB7C7ADA682881B669CC529B58 /* TrackerManager.h */,
+				18412F8065198AF806ABEF4E44821086 /* TransformModel.h */,
+				39A63F282F094BFA1712B139BB85261E /* Type.h */,
+				950F8E87911B070B5A151CBFE4522F9B /* UIGLViewProtocol.h */,
+				EB42A87CF21547F6AB8015C7C297047C /* UpdateCallback.h */,
+				950779CD7A9D6223FE721E59BB6A8240 /* Vectors.h */,
+				F549FA545A094D0AEE422B8B6C157253 /* VideoBackgroundConfig.h */,
+				A5FB0573E87B842EC895F514B4BA3365 /* VideoBackgroundTextureInfo.h */,
+				F0FA9E21107A3A31E1D5831E01002469 /* VideoMode.h */,
+				8FFCE560DB9E25C640B39B6CE10C6FA3 /* View.h */,
+				B684BCB88955C3DF9D46FB68BCAAF3FE /* ViewerParameters.h */,
+				3F60F05335BDBBE70A41733CAB0EB254 /* ViewerParametersList.h */,
+				3E2A6C7B3367048B8D3D60A77C7019C8 /* ViewList.h */,
+				B6925CFDA6E00968BE56D7567883DD53 /* VirtualButton.h */,
+				136A5C2AA89D02840D808B50CB6A5F4E /* VirtualButtonResult.h */,
+				859FFB21EEE7D0F5B138B755D44AEBE7 /* Vuforia.h */,
+				030338370DA23D7D07336087F363B1A2 /* Vuforia_iOS.h */,
+				1DBA9F0CAD7FF63EDF4CA786FA817FDB /* VuMarkTarget.h */,
+				C3BE576868EBCF05500EA5ECACDC993B /* VuMarkTargetResult.h */,
+				52313A0E619F398E12D30D70F7B71FFE /* VuMarkTemplate.h */,
+				318A766E2AB86C3CFBC0DC5136F0EAC3 /* Word.h */,
+				D86353FC1DA225F2A54D1D8B1AACC4C0 /* WordList.h */,
+				C1FB4D304E5F9F901EB8CADB1B88F250 /* WordResult.h */,
+				B4F05701F29E4FAAF2030AB53F8C58FB /* Frameworks */,
+			);
+			name = CMVuforia;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		A4E1F23E24CD80CDDDB7777E4B90DAE1 /* Pods-CMVuforia_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				E07AEF2D6F6FA5A80B8C0A5FE51A927C /* Info.plist */,
+				162FCF8356CB844D61B70773AA7C28DC /* Pods-CMVuforia_Tests.modulemap */,
+				E99238CDBB4988F2C0DC380A9D2561F1 /* Pods-CMVuforia_Tests-acknowledgements.markdown */,
+				9DA6CB51A6AB756B49B31CF4492C58BB /* Pods-CMVuforia_Tests-acknowledgements.plist */,
+				3F27000CB1E48888219FA0816B4EF8D5 /* Pods-CMVuforia_Tests-dummy.m */,
+				0738C5EF509187E8BC423E740DE27CD3 /* Pods-CMVuforia_Tests-frameworks.sh */,
+				1F55585F30D2863C543EA7E3BD29604D /* Pods-CMVuforia_Tests-resources.sh */,
+				006FF3BE67420613FF22959FE3378A7F /* Pods-CMVuforia_Tests-umbrella.h */,
+				93C3A23C3BE34F5C7778F79FA14BE1BB /* Pods-CMVuforia_Tests.debug.xcconfig */,
+				BF37FA0D84EAAC019EF95EDE81CF9338 /* Pods-CMVuforia_Tests.release.xcconfig */,
+			);
+			name = "Pods-CMVuforia_Tests";
+			path = "Target Support Files/Pods-CMVuforia_Tests";
+			sourceTree = "<group>";
+		};
+		B4F05701F29E4FAAF2030AB53F8C58FB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				89E0C884D8F6CA22EF37AE501DA0A752 /* libVuforia.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D35AF013A5F0BAD4F32504907A52519E /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D35AF013A5F0BAD4F32504907A52519E /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		40D3CBA145FD12DA0DD46EF0F69B664B /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				161545394E5DF7F65BD6F58B4E80139D /* Pods-CMVuforia_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4DA8AB782DBDDBAF5971E0861335D91E /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E7C5F873194D70F82A0CBF84572F914D /* Pods-CMVuforia_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		22C0E49707520F15B2FF60F85A550EE8 /* Pods-CMVuforia_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 07B2F970EEB7BE3310B89F27CAD57A83 /* Build configuration list for PBXNativeTarget "Pods-CMVuforia_Tests" */;
+			buildPhases = (
+				3A969491423B67EE40D7A88950BC37D6 /* Sources */,
+				0572E0011AD476A00F1A9A9AF6BB06C2 /* Frameworks */,
+				40D3CBA145FD12DA0DD46EF0F69B664B /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-CMVuforia_Tests";
+			productName = "Pods-CMVuforia_Tests";
+			productReference = CB4C1066DB3E3E1888BCC2B2391722D4 /* Pods_CMVuforia_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		DB37D55B053AC0FCAB07F201BF6C6436 /* Pods-CMVuforia_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 137396BBA24F951CDE01DB02A0DB274E /* Build configuration list for PBXNativeTarget "Pods-CMVuforia_Example" */;
+			buildPhases = (
+				281C029E191130F49DDB7D1FCE2C18F1 /* Sources */,
+				630573ACE74A4D4446BCAB9F172DB7ED /* Frameworks */,
+				4DA8AB782DBDDBAF5971E0861335D91E /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-CMVuforia_Example";
+			productName = "Pods-CMVuforia_Example";
+			productReference = B9ED37B7EDE5C86C823324F84A8CBB2B /* Pods_CMVuforia_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 14276DA234C0EA947173B172FD9314D8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DB37D55B053AC0FCAB07F201BF6C6436 /* Pods-CMVuforia_Example */,
+				22C0E49707520F15B2FF60F85A550EE8 /* Pods-CMVuforia_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		281C029E191130F49DDB7D1FCE2C18F1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				28688D02115F3BF2E4FD566675935028 /* Pods-CMVuforia_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3A969491423B67EE40D7A88950BC37D6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				44965D8CE4D516DCFE32CC03E8CF275C /* Pods-CMVuforia_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		113AF87C867C203B96E46A031DD58EFB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 85983597FE1A9AC8DA1E9A0766B20632 /* Pods-CMVuforia_Example.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-CMVuforia_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-CMVuforia_Example/Pods-CMVuforia_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_CMVuforia_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		33DA7F43A1D2FA3C74A8C8FC246E1FA6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		731DC216E1A58545B559F6E0A2418060 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		997391EC277A2587A5BB2D6E9CEEFB9B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BF37FA0D84EAAC019EF95EDE81CF9338 /* Pods-CMVuforia_Tests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-CMVuforia_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-CMVuforia_Tests/Pods-CMVuforia_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_CMVuforia_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		A88EB43C59DDE0B370E5215164FF2AFD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 93C3A23C3BE34F5C7778F79FA14BE1BB /* Pods-CMVuforia_Tests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-CMVuforia_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-CMVuforia_Tests/Pods-CMVuforia_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_CMVuforia_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		DBB015563219857E419B1E477DADA78C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B05358903A81A16C16A149DEAD1881F9 /* Pods-CMVuforia_Example.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-CMVuforia_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-CMVuforia_Example/Pods-CMVuforia_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_CMVuforia_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		07B2F970EEB7BE3310B89F27CAD57A83 /* Build configuration list for PBXNativeTarget "Pods-CMVuforia_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A88EB43C59DDE0B370E5215164FF2AFD /* Debug */,
+				997391EC277A2587A5BB2D6E9CEEFB9B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		137396BBA24F951CDE01DB02A0DB274E /* Build configuration list for PBXNativeTarget "Pods-CMVuforia_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				113AF87C867C203B96E46A031DD58EFB /* Debug */,
+				DBB015563219857E419B1E477DADA78C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				33DA7F43A1D2FA3C74A8C8FC246E1FA6 /* Debug */,
+				731DC216E1A58545B559F6E0A2418060 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

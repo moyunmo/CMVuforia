@@ -1,0 +1,6 @@
+framework module Pods_CMVuforia_Tests {
+  umbrella header "Pods-CMVuforia_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}

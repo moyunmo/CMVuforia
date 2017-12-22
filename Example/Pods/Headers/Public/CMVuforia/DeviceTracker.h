@@ -1,0 +1,1 @@
+../../../../../CMVuforia/Vuforia/DeviceTracker.h

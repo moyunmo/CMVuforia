@@ -1,0 +1,6 @@
+framework module CMVuforia {
+  umbrella header "CMVuforia-umbrella.h"
+
+  export *
+  module * { export * }
+}
